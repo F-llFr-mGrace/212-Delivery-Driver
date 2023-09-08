@@ -8,4 +8,8 @@ public class Collsion : MonoBehaviour
     {
         Debug.Log("Ouch!");
     }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Debug.Log("Boo-Wamp");
+    }
 }
